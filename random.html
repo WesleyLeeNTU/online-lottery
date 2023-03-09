@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random</title>
+    <script>
+        var start=false;
+        var names=["A","B","C","D"];
+        var timer_id;
+        var default_name=[0,3];
+        var dom;
+        var x=0;
+        function generate_random(){
+            dom.innerHTML=names[Math.floor((Math.random()*names.length))];
+        }
+        function stoprandom(){
+            clearInterval(timer_id);
+            if(x<default_name.length){
+				dom.innerHTML=names[default_name[x]];
+			}else{
+			
+			}
+            start=false;
+            document.getElementById("btn").innerHTML="start";
+            x++;
+        }
+        function startrandom(){
+            dom=document.getElementById("show");
+            timer_id=setInterval(generate_random,50);
+            start=true;
+            document.getElementById("btn").innerHTML="stop";
+        }
+        function switcher(){
+            if(!start){
+                startrandom();
+            }else{
+                stoprandom();
+            }
+            return false;
+        }
+    </script>
+    <style>
+        html,body{
+            width:100%;
+            height:100%;
+        }
+        #btn {
+            box-shadow:none;
+            background: #3498db;
+            background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+            background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+            background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+            background-image: -o-linear-gradient(top, #3498db, #2980b9);
+            background-image: linear-gradient(to bottom, #3498db, #2980b9);
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            }
+
+        #btn:hover {
+            background: #3cb0fd;
+            background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+            text-decoration: none;
+        }
+        #show{
+            margin:0 auto;
+            text-align: center;
+            font-size:90px;
+            height:100vh;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div style="width:100%;text-align:center;"><a href="#" onclick="switcher()" id="btn">start</a></div>
+    <div id="show"> </div>
+</body>
+</html>

@@ -7,7 +7,7 @@
   justify-content: center
   width: 100%
   height: 100vh
-  background: #FFF url('../img/bg-food.jpg') no-repeat top right
+  // background: #FFF url('../img/bg-food.jpg') no-repeat top right
   background-size: contain
 
 @media screen and (max-width: 768px)
@@ -17,14 +17,21 @@
     background-size: cover
 
 .main-block
-  margin-right: 25vw
-  width: 40vw
+  // margin-right: 25vw
+  width: 60vw
   text-align: center
 
 @media screen and (max-width: 768px)
   .main-block
     margin-right: 0
     width: calc(100vw - 16px)
+
+
+.title
+  h1
+    margin: 0
+    margin-bottom: 2rem
+    font-size: 8rem
 
 .god
   margin-bottom: 1rem
@@ -48,7 +55,7 @@
   .god
     padding: 2rem .5rem
     h1
-      font-size: 2rem
+      font-size: 5rem
     span
       max-height: 36px
 
@@ -56,8 +63,8 @@
   animation-iteration-count: infinite
   animation-timing-function: linear
 
-@for $i from 1 through 50
-  $t: .03s * $i
+@for $i from 1 through 300
+  $t: .06s * $i
   @keyframes spin-#{$i}
     from
       top: 0
@@ -92,6 +99,34 @@
   color: rgba(41, 44, 55, 0.54)
   &::after
     content: '轉動命運輪盤'
+    line-height: 1
+  &:hover
+    color: #CD0505
+  &.not-allow
+    pointer-events: none
+    &::after
+      font-family: 'FontAwesome'
+      content: '\f110'
+      animation: fa-spin 2s infinite linear
+    &:hover
+      color: #CCC
+
+.btn-import
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  z-index: 1
+  margin-top: 5vh
+  margin-bottom: 2vh
+  margin-left: 2rem
+  padding: 1rem 2rem
+  width: 100%
+  border: 1px solid rgba(41, 44, 55, 0.27)
+  text-decoration: none
+  color: rgba(41, 44, 55, 0.54)
+  &::after
+    content: '製作名單'
     line-height: 1
   &:hover
     color: #CD0505

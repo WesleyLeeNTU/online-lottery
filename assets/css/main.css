@@ -9,7 +9,6 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: #FFF url("../img/bg-food.jpg") no-repeat top right;
   background-size: contain;
 }
 
@@ -21,7 +20,6 @@
   }
 }
 .main-block {
-  margin-right: 25vw;
   width: 40vw;
   text-align: center;
 }
@@ -32,6 +30,11 @@
     width: calc(100vw - 16px);
   }
 }
+.title h1 {
+  margin: 0;
+  font-size: 8rem;
+}
+
 .god {
   margin-bottom: 1rem;
   padding: 2rem;
@@ -66,19 +69,8 @@
   }
 }
 .god .wrap > span {
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
-@-webkit-keyframes spin-1 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 1);
-  }
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes spin-1 {
@@ -90,19 +82,8 @@
   }
 }
 .god .wrap > .span-1 {
-  -webkit-animation-name: spin-1;
-          animation-name: spin-1;
-  -webkit-animation-duration: 0.03s;
-          animation-duration: 0.03s;
-}
-
-@-webkit-keyframes spin-2 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 2);
-  }
+  animation-name: spin-1;
+  animation-duration: 0.03s;
 }
 
 @keyframes spin-2 {
@@ -114,19 +95,8 @@
   }
 }
 .god .wrap > .span-2 {
-  -webkit-animation-name: spin-2;
-          animation-name: spin-2;
-  -webkit-animation-duration: 0.06s;
-          animation-duration: 0.06s;
-}
-
-@-webkit-keyframes spin-3 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 3);
-  }
+  animation-name: spin-2;
+  animation-duration: 0.06s;
 }
 
 @keyframes spin-3 {
@@ -138,19 +108,8 @@
   }
 }
 .god .wrap > .span-3 {
-  -webkit-animation-name: spin-3;
-          animation-name: spin-3;
-  -webkit-animation-duration: 0.09s;
-          animation-duration: 0.09s;
-}
-
-@-webkit-keyframes spin-4 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 4);
-  }
+  animation-name: spin-3;
+  animation-duration: 0.09s;
 }
 
 @keyframes spin-4 {
@@ -162,19 +121,8 @@
   }
 }
 .god .wrap > .span-4 {
-  -webkit-animation-name: spin-4;
-          animation-name: spin-4;
-  -webkit-animation-duration: 0.12s;
-          animation-duration: 0.12s;
-}
-
-@-webkit-keyframes spin-5 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 5);
-  }
+  animation-name: spin-4;
+  animation-duration: 0.12s;
 }
 
 @keyframes spin-5 {
@@ -186,19 +134,8 @@
   }
 }
 .god .wrap > .span-5 {
-  -webkit-animation-name: spin-5;
-          animation-name: spin-5;
-  -webkit-animation-duration: 0.15s;
-          animation-duration: 0.15s;
-}
-
-@-webkit-keyframes spin-6 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 6);
-  }
+  animation-name: spin-5;
+  animation-duration: 0.15s;
 }
 
 @keyframes spin-6 {
@@ -210,19 +147,8 @@
   }
 }
 .god .wrap > .span-6 {
-  -webkit-animation-name: spin-6;
-          animation-name: spin-6;
-  -webkit-animation-duration: 0.18s;
-          animation-duration: 0.18s;
-}
-
-@-webkit-keyframes spin-7 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 7);
-  }
+  animation-name: spin-6;
+  animation-duration: 0.18s;
 }
 
 @keyframes spin-7 {
@@ -234,19 +160,8 @@
   }
 }
 .god .wrap > .span-7 {
-  -webkit-animation-name: spin-7;
-          animation-name: spin-7;
-  -webkit-animation-duration: 0.21s;
-          animation-duration: 0.21s;
-}
-
-@-webkit-keyframes spin-8 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 8);
-  }
+  animation-name: spin-7;
+  animation-duration: 0.21s;
 }
 
 @keyframes spin-8 {
@@ -258,19 +173,8 @@
   }
 }
 .god .wrap > .span-8 {
-  -webkit-animation-name: spin-8;
-          animation-name: spin-8;
-  -webkit-animation-duration: 0.24s;
-          animation-duration: 0.24s;
-}
-
-@-webkit-keyframes spin-9 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 9);
-  }
+  animation-name: spin-8;
+  animation-duration: 0.24s;
 }
 
 @keyframes spin-9 {
@@ -282,19 +186,8 @@
   }
 }
 .god .wrap > .span-9 {
-  -webkit-animation-name: spin-9;
-          animation-name: spin-9;
-  -webkit-animation-duration: 0.27s;
-          animation-duration: 0.27s;
-}
-
-@-webkit-keyframes spin-10 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 10);
-  }
+  animation-name: spin-9;
+  animation-duration: 0.27s;
 }
 
 @keyframes spin-10 {
@@ -306,19 +199,8 @@
   }
 }
 .god .wrap > .span-10 {
-  -webkit-animation-name: spin-10;
-          animation-name: spin-10;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-}
-
-@-webkit-keyframes spin-11 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 11);
-  }
+  animation-name: spin-10;
+  animation-duration: 0.3s;
 }
 
 @keyframes spin-11 {
@@ -330,19 +212,8 @@
   }
 }
 .god .wrap > .span-11 {
-  -webkit-animation-name: spin-11;
-          animation-name: spin-11;
-  -webkit-animation-duration: 0.33s;
-          animation-duration: 0.33s;
-}
-
-@-webkit-keyframes spin-12 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 12);
-  }
+  animation-name: spin-11;
+  animation-duration: 0.33s;
 }
 
 @keyframes spin-12 {
@@ -354,19 +225,8 @@
   }
 }
 .god .wrap > .span-12 {
-  -webkit-animation-name: spin-12;
-          animation-name: spin-12;
-  -webkit-animation-duration: 0.36s;
-          animation-duration: 0.36s;
-}
-
-@-webkit-keyframes spin-13 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 13);
-  }
+  animation-name: spin-12;
+  animation-duration: 0.36s;
 }
 
 @keyframes spin-13 {
@@ -378,19 +238,8 @@
   }
 }
 .god .wrap > .span-13 {
-  -webkit-animation-name: spin-13;
-          animation-name: spin-13;
-  -webkit-animation-duration: 0.39s;
-          animation-duration: 0.39s;
-}
-
-@-webkit-keyframes spin-14 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 14);
-  }
+  animation-name: spin-13;
+  animation-duration: 0.39s;
 }
 
 @keyframes spin-14 {
@@ -402,19 +251,8 @@
   }
 }
 .god .wrap > .span-14 {
-  -webkit-animation-name: spin-14;
-          animation-name: spin-14;
-  -webkit-animation-duration: 0.42s;
-          animation-duration: 0.42s;
-}
-
-@-webkit-keyframes spin-15 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 15);
-  }
+  animation-name: spin-14;
+  animation-duration: 0.42s;
 }
 
 @keyframes spin-15 {
@@ -426,19 +264,8 @@
   }
 }
 .god .wrap > .span-15 {
-  -webkit-animation-name: spin-15;
-          animation-name: spin-15;
-  -webkit-animation-duration: 0.45s;
-          animation-duration: 0.45s;
-}
-
-@-webkit-keyframes spin-16 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 16);
-  }
+  animation-name: spin-15;
+  animation-duration: 0.45s;
 }
 
 @keyframes spin-16 {
@@ -450,19 +277,8 @@
   }
 }
 .god .wrap > .span-16 {
-  -webkit-animation-name: spin-16;
-          animation-name: spin-16;
-  -webkit-animation-duration: 0.48s;
-          animation-duration: 0.48s;
-}
-
-@-webkit-keyframes spin-17 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 17);
-  }
+  animation-name: spin-16;
+  animation-duration: 0.48s;
 }
 
 @keyframes spin-17 {
@@ -474,19 +290,8 @@
   }
 }
 .god .wrap > .span-17 {
-  -webkit-animation-name: spin-17;
-          animation-name: spin-17;
-  -webkit-animation-duration: 0.51s;
-          animation-duration: 0.51s;
-}
-
-@-webkit-keyframes spin-18 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 18);
-  }
+  animation-name: spin-17;
+  animation-duration: 0.51s;
 }
 
 @keyframes spin-18 {
@@ -498,19 +303,8 @@
   }
 }
 .god .wrap > .span-18 {
-  -webkit-animation-name: spin-18;
-          animation-name: spin-18;
-  -webkit-animation-duration: 0.54s;
-          animation-duration: 0.54s;
-}
-
-@-webkit-keyframes spin-19 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 19);
-  }
+  animation-name: spin-18;
+  animation-duration: 0.54s;
 }
 
 @keyframes spin-19 {
@@ -522,19 +316,8 @@
   }
 }
 .god .wrap > .span-19 {
-  -webkit-animation-name: spin-19;
-          animation-name: spin-19;
-  -webkit-animation-duration: 0.57s;
-          animation-duration: 0.57s;
-}
-
-@-webkit-keyframes spin-20 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 20);
-  }
+  animation-name: spin-19;
+  animation-duration: 0.57s;
 }
 
 @keyframes spin-20 {
@@ -546,19 +329,8 @@
   }
 }
 .god .wrap > .span-20 {
-  -webkit-animation-name: spin-20;
-          animation-name: spin-20;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
-}
-
-@-webkit-keyframes spin-21 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 21);
-  }
+  animation-name: spin-20;
+  animation-duration: 0.6s;
 }
 
 @keyframes spin-21 {
@@ -570,19 +342,8 @@
   }
 }
 .god .wrap > .span-21 {
-  -webkit-animation-name: spin-21;
-          animation-name: spin-21;
-  -webkit-animation-duration: 0.63s;
-          animation-duration: 0.63s;
-}
-
-@-webkit-keyframes spin-22 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 22);
-  }
+  animation-name: spin-21;
+  animation-duration: 0.63s;
 }
 
 @keyframes spin-22 {
@@ -594,19 +355,8 @@
   }
 }
 .god .wrap > .span-22 {
-  -webkit-animation-name: spin-22;
-          animation-name: spin-22;
-  -webkit-animation-duration: 0.66s;
-          animation-duration: 0.66s;
-}
-
-@-webkit-keyframes spin-23 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 23);
-  }
+  animation-name: spin-22;
+  animation-duration: 0.66s;
 }
 
 @keyframes spin-23 {
@@ -618,19 +368,8 @@
   }
 }
 .god .wrap > .span-23 {
-  -webkit-animation-name: spin-23;
-          animation-name: spin-23;
-  -webkit-animation-duration: 0.69s;
-          animation-duration: 0.69s;
-}
-
-@-webkit-keyframes spin-24 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 24);
-  }
+  animation-name: spin-23;
+  animation-duration: 0.69s;
 }
 
 @keyframes spin-24 {
@@ -642,19 +381,8 @@
   }
 }
 .god .wrap > .span-24 {
-  -webkit-animation-name: spin-24;
-          animation-name: spin-24;
-  -webkit-animation-duration: 0.72s;
-          animation-duration: 0.72s;
-}
-
-@-webkit-keyframes spin-25 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 25);
-  }
+  animation-name: spin-24;
+  animation-duration: 0.72s;
 }
 
 @keyframes spin-25 {
@@ -666,19 +394,8 @@
   }
 }
 .god .wrap > .span-25 {
-  -webkit-animation-name: spin-25;
-          animation-name: spin-25;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-}
-
-@-webkit-keyframes spin-26 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 26);
-  }
+  animation-name: spin-25;
+  animation-duration: 0.75s;
 }
 
 @keyframes spin-26 {
@@ -690,19 +407,8 @@
   }
 }
 .god .wrap > .span-26 {
-  -webkit-animation-name: spin-26;
-          animation-name: spin-26;
-  -webkit-animation-duration: 0.78s;
-          animation-duration: 0.78s;
-}
-
-@-webkit-keyframes spin-27 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 27);
-  }
+  animation-name: spin-26;
+  animation-duration: 0.78s;
 }
 
 @keyframes spin-27 {
@@ -714,19 +420,8 @@
   }
 }
 .god .wrap > .span-27 {
-  -webkit-animation-name: spin-27;
-          animation-name: spin-27;
-  -webkit-animation-duration: 0.81s;
-          animation-duration: 0.81s;
-}
-
-@-webkit-keyframes spin-28 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 28);
-  }
+  animation-name: spin-27;
+  animation-duration: 0.81s;
 }
 
 @keyframes spin-28 {
@@ -738,19 +433,8 @@
   }
 }
 .god .wrap > .span-28 {
-  -webkit-animation-name: spin-28;
-          animation-name: spin-28;
-  -webkit-animation-duration: 0.84s;
-          animation-duration: 0.84s;
-}
-
-@-webkit-keyframes spin-29 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 29);
-  }
+  animation-name: spin-28;
+  animation-duration: 0.84s;
 }
 
 @keyframes spin-29 {
@@ -762,19 +446,8 @@
   }
 }
 .god .wrap > .span-29 {
-  -webkit-animation-name: spin-29;
-          animation-name: spin-29;
-  -webkit-animation-duration: 0.87s;
-          animation-duration: 0.87s;
-}
-
-@-webkit-keyframes spin-30 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 30);
-  }
+  animation-name: spin-29;
+  animation-duration: 0.87s;
 }
 
 @keyframes spin-30 {
@@ -786,19 +459,8 @@
   }
 }
 .god .wrap > .span-30 {
-  -webkit-animation-name: spin-30;
-          animation-name: spin-30;
-  -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
-}
-
-@-webkit-keyframes spin-31 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 31);
-  }
+  animation-name: spin-30;
+  animation-duration: 0.9s;
 }
 
 @keyframes spin-31 {
@@ -810,19 +472,8 @@
   }
 }
 .god .wrap > .span-31 {
-  -webkit-animation-name: spin-31;
-          animation-name: spin-31;
-  -webkit-animation-duration: 0.93s;
-          animation-duration: 0.93s;
-}
-
-@-webkit-keyframes spin-32 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 32);
-  }
+  animation-name: spin-31;
+  animation-duration: 0.93s;
 }
 
 @keyframes spin-32 {
@@ -834,19 +485,8 @@
   }
 }
 .god .wrap > .span-32 {
-  -webkit-animation-name: spin-32;
-          animation-name: spin-32;
-  -webkit-animation-duration: 0.96s;
-          animation-duration: 0.96s;
-}
-
-@-webkit-keyframes spin-33 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 33);
-  }
+  animation-name: spin-32;
+  animation-duration: 0.96s;
 }
 
 @keyframes spin-33 {
@@ -858,19 +498,8 @@
   }
 }
 .god .wrap > .span-33 {
-  -webkit-animation-name: spin-33;
-          animation-name: spin-33;
-  -webkit-animation-duration: 0.99s;
-          animation-duration: 0.99s;
-}
-
-@-webkit-keyframes spin-34 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 34);
-  }
+  animation-name: spin-33;
+  animation-duration: 0.99s;
 }
 
 @keyframes spin-34 {
@@ -882,19 +511,8 @@
   }
 }
 .god .wrap > .span-34 {
-  -webkit-animation-name: spin-34;
-          animation-name: spin-34;
-  -webkit-animation-duration: 1.02s;
-          animation-duration: 1.02s;
-}
-
-@-webkit-keyframes spin-35 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 35);
-  }
+  animation-name: spin-34;
+  animation-duration: 1.02s;
 }
 
 @keyframes spin-35 {
@@ -906,19 +524,8 @@
   }
 }
 .god .wrap > .span-35 {
-  -webkit-animation-name: spin-35;
-          animation-name: spin-35;
-  -webkit-animation-duration: 1.05s;
-          animation-duration: 1.05s;
-}
-
-@-webkit-keyframes spin-36 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 36);
-  }
+  animation-name: spin-35;
+  animation-duration: 1.05s;
 }
 
 @keyframes spin-36 {
@@ -930,19 +537,8 @@
   }
 }
 .god .wrap > .span-36 {
-  -webkit-animation-name: spin-36;
-          animation-name: spin-36;
-  -webkit-animation-duration: 1.08s;
-          animation-duration: 1.08s;
-}
-
-@-webkit-keyframes spin-37 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 37);
-  }
+  animation-name: spin-36;
+  animation-duration: 1.08s;
 }
 
 @keyframes spin-37 {
@@ -954,19 +550,8 @@
   }
 }
 .god .wrap > .span-37 {
-  -webkit-animation-name: spin-37;
-          animation-name: spin-37;
-  -webkit-animation-duration: 1.11s;
-          animation-duration: 1.11s;
-}
-
-@-webkit-keyframes spin-38 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 38);
-  }
+  animation-name: spin-37;
+  animation-duration: 1.11s;
 }
 
 @keyframes spin-38 {
@@ -978,19 +563,8 @@
   }
 }
 .god .wrap > .span-38 {
-  -webkit-animation-name: spin-38;
-          animation-name: spin-38;
-  -webkit-animation-duration: 1.14s;
-          animation-duration: 1.14s;
-}
-
-@-webkit-keyframes spin-39 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 39);
-  }
+  animation-name: spin-38;
+  animation-duration: 1.14s;
 }
 
 @keyframes spin-39 {
@@ -1002,19 +576,8 @@
   }
 }
 .god .wrap > .span-39 {
-  -webkit-animation-name: spin-39;
-          animation-name: spin-39;
-  -webkit-animation-duration: 1.17s;
-          animation-duration: 1.17s;
-}
-
-@-webkit-keyframes spin-40 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 40);
-  }
+  animation-name: spin-39;
+  animation-duration: 1.17s;
 }
 
 @keyframes spin-40 {
@@ -1026,19 +589,8 @@
   }
 }
 .god .wrap > .span-40 {
-  -webkit-animation-name: spin-40;
-          animation-name: spin-40;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-}
-
-@-webkit-keyframes spin-41 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 41);
-  }
+  animation-name: spin-40;
+  animation-duration: 1.2s;
 }
 
 @keyframes spin-41 {
@@ -1050,19 +602,8 @@
   }
 }
 .god .wrap > .span-41 {
-  -webkit-animation-name: spin-41;
-          animation-name: spin-41;
-  -webkit-animation-duration: 1.23s;
-          animation-duration: 1.23s;
-}
-
-@-webkit-keyframes spin-42 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 42);
-  }
+  animation-name: spin-41;
+  animation-duration: 1.23s;
 }
 
 @keyframes spin-42 {
@@ -1074,19 +615,8 @@
   }
 }
 .god .wrap > .span-42 {
-  -webkit-animation-name: spin-42;
-          animation-name: spin-42;
-  -webkit-animation-duration: 1.26s;
-          animation-duration: 1.26s;
-}
-
-@-webkit-keyframes spin-43 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 43);
-  }
+  animation-name: spin-42;
+  animation-duration: 1.26s;
 }
 
 @keyframes spin-43 {
@@ -1098,19 +628,8 @@
   }
 }
 .god .wrap > .span-43 {
-  -webkit-animation-name: spin-43;
-          animation-name: spin-43;
-  -webkit-animation-duration: 1.29s;
-          animation-duration: 1.29s;
-}
-
-@-webkit-keyframes spin-44 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 44);
-  }
+  animation-name: spin-43;
+  animation-duration: 1.29s;
 }
 
 @keyframes spin-44 {
@@ -1122,19 +641,8 @@
   }
 }
 .god .wrap > .span-44 {
-  -webkit-animation-name: spin-44;
-          animation-name: spin-44;
-  -webkit-animation-duration: 1.32s;
-          animation-duration: 1.32s;
-}
-
-@-webkit-keyframes spin-45 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 45);
-  }
+  animation-name: spin-44;
+  animation-duration: 1.32s;
 }
 
 @keyframes spin-45 {
@@ -1146,19 +654,8 @@
   }
 }
 .god .wrap > .span-45 {
-  -webkit-animation-name: spin-45;
-          animation-name: spin-45;
-  -webkit-animation-duration: 1.35s;
-          animation-duration: 1.35s;
-}
-
-@-webkit-keyframes spin-46 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 46);
-  }
+  animation-name: spin-45;
+  animation-duration: 1.35s;
 }
 
 @keyframes spin-46 {
@@ -1170,19 +667,8 @@
   }
 }
 .god .wrap > .span-46 {
-  -webkit-animation-name: spin-46;
-          animation-name: spin-46;
-  -webkit-animation-duration: 1.38s;
-          animation-duration: 1.38s;
-}
-
-@-webkit-keyframes spin-47 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 47);
-  }
+  animation-name: spin-46;
+  animation-duration: 1.38s;
 }
 
 @keyframes spin-47 {
@@ -1194,19 +680,8 @@
   }
 }
 .god .wrap > .span-47 {
-  -webkit-animation-name: spin-47;
-          animation-name: spin-47;
-  -webkit-animation-duration: 1.41s;
-          animation-duration: 1.41s;
-}
-
-@-webkit-keyframes spin-48 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 48);
-  }
+  animation-name: spin-47;
+  animation-duration: 1.41s;
 }
 
 @keyframes spin-48 {
@@ -1218,19 +693,8 @@
   }
 }
 .god .wrap > .span-48 {
-  -webkit-animation-name: spin-48;
-          animation-name: spin-48;
-  -webkit-animation-duration: 1.44s;
-          animation-duration: 1.44s;
-}
-
-@-webkit-keyframes spin-49 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 49);
-  }
+  animation-name: spin-48;
+  animation-duration: 1.44s;
 }
 
 @keyframes spin-49 {
@@ -1242,19 +706,8 @@
   }
 }
 .god .wrap > .span-49 {
-  -webkit-animation-name: spin-49;
-          animation-name: spin-49;
-  -webkit-animation-duration: 1.47s;
-          animation-duration: 1.47s;
-}
-
-@-webkit-keyframes spin-50 {
-  from {
-    top: 0;
-  }
-  to {
-    top: calc(-73px * 50);
-  }
+  animation-name: spin-49;
+  animation-duration: 1.47s;
 }
 
 @keyframes spin-50 {
@@ -1266,10 +719,8 @@
   }
 }
 .god .wrap > .span-50 {
-  -webkit-animation-name: spin-50;
-          animation-name: spin-50;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-name: spin-50;
+  animation-duration: 1.5s;
 }
 
 .btns {
@@ -1310,8 +761,7 @@
 .btn-start.not-allow::after {
   font-family: "FontAwesome";
   content: "\f110";
-  -webkit-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 .btn-start.not-allow:hover {
   color: #CCC;
@@ -1325,11 +775,8 @@
 .btn-start .line, .btn-start.not-allow .line {
   position: absolute;
   background: #CD0505;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  transition: -webkit-transform 0.1s ease;
+  transform: scale(0);
   transition: transform 0.1s ease;
-  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
 }
 .btn-start .line.-h, .btn-start.not-allow .line.-h {
   width: 100%;
@@ -1342,26 +789,22 @@
 .btn-start .line.top, .btn-start.not-allow .line.top {
   top: -2px;
   left: 0;
-  -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
 }
 .btn-start .line.right, .btn-start.not-allow .line.right {
   top: 0;
   right: -2px;
-  -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
 }
 .btn-start .line.bottom, .btn-start.not-allow .line.bottom {
   bottom: -2px;
   right: 0;
-  -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
 }
 .btn-start .line.left, .btn-start.not-allow .line.left {
   bottom: 0;
   left: -2px;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 .btn-start.not-allow {
@@ -1388,8 +831,7 @@
 }
 
 .btn-start:hover .line, .btn-start.not-allow:hover .line {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .btn-start:hover .line.top, .btn-start.not-allow:hover .line.top {
   transition-delay: 0s;
@@ -1444,8 +886,7 @@ input:focus + .button {
   box-shadow: 0 0 1px #2196F3;
 }
 input:checked + .button:before, input:checked + .button:after {
-  -webkit-transform: translateX(46px);
-          transform: translateX(46px);
+  transform: translateX(46px);
 }
 input:checked + .button:after {
   color: #689F38;
@@ -1538,4 +979,4 @@ input:checked + .button:after {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
+}/*# sourceMappingURL=main.css.map */
